@@ -92,17 +92,17 @@ npx hardhat test
 ```
 Recommended test cases:
 
-Account creation
+- Account creation
 
-ETH and ERC-20 deposits
+- ETH and ERC-20 deposits
 
-Withdrawals
+- Withdrawals
 
-Pause/Unpause operations
+- Pause/Unpause operations
 
-BankCap enforcement
+- BankCap enforcement
 
-Access control permissions
+- Access control permissions
 
 Project Structure
 ```bash
