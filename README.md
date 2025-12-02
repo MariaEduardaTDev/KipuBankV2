@@ -57,7 +57,7 @@ npm install @chainlink/contracts
 npm install hardhat --save-dev
 ```
 
-Deployment (Hardhat)
+## Deployment (Hardhat)
 
 Create scripts/deploy.js:
 ```bash
@@ -81,7 +81,7 @@ main().catch((error) => {
   process.exitCode = 1;
 });
 ```
-Testing
+## Testing
 Hardhat console (Sepolia)
 ```bash
 npx hardhat console --network sepolia
@@ -90,7 +90,7 @@ Local tests
 ```bash
 npx hardhat test
 ```
-Recommended test cases:
+## Recommended test cases:
 
 - Account creation
 
@@ -104,7 +104,7 @@ Recommended test cases:
 
 - Access control permissions
 
-Project Structure
+## Project Structure
 ```bash
 kipu-bankV2/
  ├─ contracts/
@@ -115,7 +115,7 @@ kipu-bankV2/
  ├─ hardhat.config.js
  └─ README.md
 ```
-Author
+## Author
 
 Developed by Maria Eduarda
 A professional-level learning project focused on Solidity, smart contract architecture, and Web3 systems design.
