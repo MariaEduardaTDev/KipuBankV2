@@ -49,18 +49,18 @@ KipuBankV2 provides:
 
 ```bash
 npm install
+
 Required dependencies:
 
-bash
-Copiar código
 npm install @openzeppelin/contracts
 npm install @chainlink/contracts
 npm install hardhat --save-dev
+```
+
 Deployment (Hardhat)
+
 Create scripts/deploy.js:
 
-javascript
-Copiar código
 const hre = require("hardhat");
 
 async function main() {
@@ -80,15 +80,14 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
 Testing
 Hardhat console (Sepolia)
-bash
-Copiar código
 npx hardhat console --network sepolia
+
 Local tests
-bash
-Copiar código
 npx hardhat test
+
 Recommended test cases:
 
 Account creation
@@ -104,8 +103,6 @@ BankCap enforcement
 Access control permissions
 
 Project Structure
-arduino
-Copiar código
 kipu-bankV2/
  ├─ contracts/
  │   └─ KipuBankV2.sol
@@ -114,20 +111,8 @@ kipu-bankV2/
  ├─ test/
  ├─ hardhat.config.js
  └─ README.md
+
 Author
+
 Developed by Maria Eduarda
 A professional-level learning project focused on Solidity, smart contract architecture, and Web3 systems design.
-
-yaml
-Copiar código
-
----
-
-Se quiser acrescentar mais seções, como:
-
-- Security Considerations  
-- Gas Optimization Notes  
-- UML architecture diagram  
-- API documentation (functions + roles)  
-
-É só pedir.
