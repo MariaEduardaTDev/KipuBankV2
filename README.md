@@ -60,7 +60,7 @@ npm install hardhat --save-dev
 Deployment (Hardhat)
 
 Create scripts/deploy.js:
-
+```bash
 const hre = require("hardhat");
 
 async function main() {
@@ -80,14 +80,16 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-
+```
 Testing
 Hardhat console (Sepolia)
+```bash
 npx hardhat console --network sepolia
-
+```
 Local tests
+```bash
 npx hardhat test
-
+```
 Recommended test cases:
 
 Account creation
@@ -103,6 +105,7 @@ BankCap enforcement
 Access control permissions
 
 Project Structure
+```bash
 kipu-bankV2/
  ├─ contracts/
  │   └─ KipuBankV2.sol
@@ -111,7 +114,7 @@ kipu-bankV2/
  ├─ test/
  ├─ hardhat.config.js
  └─ README.md
-
+```
 Author
 
 Developed by Maria Eduarda
